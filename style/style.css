@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.687);
+    height: 100vh;
+}
+
+.dialog {
+    background-color: #fff;
+    border-radius: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 130px 80px;
+    width: 360px;
+    gap: 15px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.close {
+    float: left;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+button {
+    border-radius: 30px;
+    border: 1px solid gray;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.gmail {
+    text-decoration: none;
+}
+
+.gmail-btn {
+    background-color: transparent;
+}
+
+.gmail-btn:hover {
+    background-color: skyblue;
+}
+
+.gmail-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.apple {
+    background-color: transparent;
+}
+
+.apple:hover {
+    background-color: grey;
+}
+
+.apple-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    width: 45%;
+    opacity: .3;
+}
+
+.text {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.password {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.signin {
+    background-color: black;
+    color: white;
+}
+
+.signin:hover {
+    background-color: grey;
+}
+
+.forget {
+    background-color: transparent;
+}
+
+.forget:hover {
+    background-color: grey;
+}
+
+.signup {
+    color: skyblue;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,5 @@
+.sidebar-user__item {
+    position: fixed;
+    bottom: 50px;
+    display: flex;
+}

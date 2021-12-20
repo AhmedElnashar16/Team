@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Twitter-signin</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="dialog">
+            <div class="header">
+                <img src="assets/logo.jpg" alt="Twitter-Logo" class="logo">
+
+                <img src="assets/close.png" alt="Close" class="close">
+            </div>
+            <!-- action="Regiser.html" method="get" -->
+            <form class="wrapper" onsubmit="check(event)" action="index.html" method="get">
+                <h2>Sign in to Twitter</h2>
+                <a href="https://accounts.google.com/b/0/AddMailService" target="blank" class="gmail">
+                    <button class="gmail-btn" type="button">
+                        <img src="assets/google.png" class="gmail-logo">
+                        <span>Sign in with Google</span>
+                    </button>
+                </a>
+
+                <button class="apple">
+                    <img src="assets/apple.png" class="apple-logo">
+                    <span>Sign in with Apple</span>
+                </button>
+                <div class="or">
+                    <hr>
+                    <span>or</span>
+                    <hr>
+                </div>
+                <input type="email" placeholder="email address" name="email" class="text" id="emailaddress" required>
+                <input type="password" placeholder="Password" class="password" id="password" required>
+                <span id=validemail></span>
+                <button class="signin" type="submit">
+                    Signin
+                </button>
+                <button class=" forget ">
+                    forgot password?
+                </button>
+                <p>
+                    Don’t have an account?
+                    <a href="Regiser.html " class="signup ">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="script/main2.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiser</title>
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/style2.css" />
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <div class="dialog">
+                <div class="header">
+                    <img src="assets/logo.jpg" alt="Twitter-Logo" class="logo" />
+
+                    <img src="assets/close.png" alt="Close" class="close" />
+                </div>
+                <!-- onsubmit="return validateForm()" -->
+                <form class="wrapper" name="myForm" id="form" action="Twitter.html" onsubmit="store()" method="GET">
+                    <h2 style="margin-left: 10px; float: left;">Create your account</h2>
+                    <input type="text" class="input" placeholder="Entre your Name" pattern="[A-Za-z]{5,}" name="fname"
+                        id="UserName" required>
+                    <input type="password" class="input" placeholder="Entre your Password" pattern="([A-z0-9À-ž\s]){3,}"
+                        name="fpass" id="PassWord" required>
+                    <input type="email" class="input" placeholder="Entre your E-mail" name="femail" id="EmailAddress"
+                        required>
+                    <h4 class="dateofbirth">Date of birth</h4>
+                    <p class="note">This will not be shown publicly. Confirm your own age, even if this account is for a
+                        business, a pet, or something else.
+                    </p>
+                    <input type="date" id="birthday" name="fbirthday" class="input" min="1930-01-01" max="2005-01-01"
+                        required>
+                    <button class="next" type="submit" id="sumbits">
+                        Go To Signin Page
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+        <script src="script/main2.js"></script>
+    </body>
+
+</html>
+</body>
+
+</html>
